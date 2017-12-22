@@ -39,7 +39,12 @@ iz_buzz <- function (numb, div1, div2) {
   all (chk1, chk2)
 }
 
-# Now just need to make it do fizz, buzz and fizzbuzz
-
+# Now just need to make it do fizz, buzz and fizzbuzz...
+# the following does not work yet...
+f_b_fb <- function (numb, div1, div2) {
+  chk1 <- (numb/div1==round(numb/div1))
+  chk2 <- (numb/div2==round(numb/div2))
+  if all(chk1, chk2) == TRUE "FizzBuzz" elseif chk1 == TRUE "Fizz" elseif chk2 == TRUE "Buzz" else ""
+}
 
 

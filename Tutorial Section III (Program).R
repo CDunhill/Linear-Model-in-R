@@ -28,3 +28,18 @@ if ((x/3)==round(x/3) & (x/5)==round(x/5)) {                 # Is X divisible by
 # Subsequently Googled answer...
 # Can use '%%' for modulo eg. x %% 3 gives 2 (remainder) where x=8
 # So where result is 0 'x' is divisible by 3
+
+
+# CREATING MY FIRST FUNCTIONs TO MAKE IT MORE REPEATABLE
+# The following checks for a 'fizzbuzz' and returns true if so...
+# Not the most amazing, but it works
+iz_buzz <- function (numb, div1, div2) {
+  chk1 <- (numb/div1==round(numb/div1))
+  chk2 <- (numb/div2==round(numb/div2))
+  all (chk1, chk2)
+}
+
+# Now just need to make it do fizz, buzz and fizzbuzz
+
+
+
